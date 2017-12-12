@@ -23,6 +23,7 @@
 - tensorflow
 - android
 - matlab
+- arduino
 
 #### 注
 ~~PPT important~~
