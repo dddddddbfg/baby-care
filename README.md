@@ -23,7 +23,7 @@
 
 ## 技术栈
 
-- tensorflow
+- ~~tensorflow~~ caffe
 - android
 - matlab
 - arduino
