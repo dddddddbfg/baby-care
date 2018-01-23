@@ -1,0 +1,3 @@
+/home/carter/Desktop/2017project/finger_detect/CMakeFiles/rebuild_cache.dir
+/home/carter/Desktop/2017project/finger_detect/CMakeFiles/DisplayImage.dir
+/home/carter/Desktop/2017project/finger_detect/CMakeFiles/edit_cache.dir
