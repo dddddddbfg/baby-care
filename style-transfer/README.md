@@ -8,6 +8,8 @@ Neural net operations are handled by Caffe, while loss minimization and other mi
 
 我们承认这样一个事实：图像的艺术风格就是其基本形状与色彩的组合方式，所以通过风格与内容的结合，我们可以产生具有艺术风格的图片。
 
+![intro](https://dn-anything-about-doc.qbox.me/document-uid440821labid3126timestamp1498730087122.png/wm)
+
 ## Requirements
 
  - Python >= 2.7
