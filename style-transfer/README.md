@@ -6,6 +6,10 @@ This repository contains a pyCaffe-based implementation of "A Neural Algorithm o
 
 Neural net operations are handled by Caffe, while loss minimization and other miscellaneous matrix operations are performed using numpy and scipy. L-BFGS is used for minimization.
 
+我们承认这样一个事实：图像的艺术风格就是其基本形状与色彩的组合方式，所以通过风格与内容的结合，我们可以产生具有艺术风格的图片。
+
+![intro](https://dn-anything-about-doc.qbox.me/document-uid440821labid3126timestamp1498730087122.png/wm)
+
 ## Requirements
 
  - Python >= 2.7
@@ -38,25 +42,6 @@ bash scripts/download_models.sh <model_name>
 
 Here, `<model_name>` must be one of `vgg16`, `vgg19`, `googlenet`, or `caffenet`.
 
-## Sample
-
-Original images: [San Francisco](https://www.flickr.com/photos/anhgemus-photography/15377047497) by Anh Dinh, [Nanjing in winter snow, 2008](https://www.flickr.com/photos/emmajg/3199018106) by Emma Gawen, and [Blade Runner's Johannesburg](https://www.flickr.com/photos/andryn2006/19114016482) by Andrew Moore. All images were released under the Creative Comments license. Each output image was initialized with the content image, and 500 BFGS iterations under the VGG model were performed in each instance.
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/style/starry_night.jpg" width="50%"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/content/sanfrancisco.jpg" width="40%"/>
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/results/starry_sanfrancisco.jpg" width="40%"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/content/nanjing.jpg" width="40%"/>
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/results/starry_nanjing.jpg" width="40%"/>
-</p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/content/johannesburg.jpg" width="40%"/>
-<img src="https://raw.githubusercontent.com/fzliu/style-transfer/master/images/results/starry_johannesburg.jpg" width="40%"/>
-</p>
 
 These results can also be found in the `images` folder in the repository root.
 
