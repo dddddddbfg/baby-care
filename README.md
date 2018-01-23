@@ -43,7 +43,7 @@
 
 ## 技术栈
 
-- ~~tensorflow~~ caffe	
+- ~~tensorflow~~ caffe
 - android
 - matlab
 - arduino
