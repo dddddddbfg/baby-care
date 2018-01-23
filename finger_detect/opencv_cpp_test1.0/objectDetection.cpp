@@ -28,8 +28,10 @@ int main( int argc, const char** argv )
                   "You can use Haar or LBP features.\n\n" );
     parser.printMessage();
 
-    face_cascade_name = parser.get<String>("face_cascade");
-    eyes_cascade_name = parser.get<String>("eyes_cascade");
+    // face_cascade_name = parser.get<String>("face_cascade");
+    face_cascade_name = "./haarcascade_frontalcatface.xml";
+    eyes_cascade_name = "./haarcascade_eye_tree_eyeglasses.xml";
+    // eyes_cascade_name = parser.get<String>("eyes_cascade");
     VideoCapture capture;
     Mat frame;
 
@@ -38,7 +40,7 @@ int main( int argc, const char** argv )
     if( !eyes_cascade.load( eyes_cascade_name ) ){ printf("--(!)Error loading eyes cascade\n"); return -1; };
 
     //-- 2. Read the video stream
-    capture.open( 0 );
+    capture.open( 1 );
     if ( ! capture.isOpened() ) { printf("--(!)Error opening video capture\n"); return -1; }
 
     while ( capture.read(frame) )
