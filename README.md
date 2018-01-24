@@ -36,7 +36,7 @@
 
 ## 分工
 
-1. 陆怡、李宗义 ： app端（ionic）Android 5.1
+1. 陆怡、李宗义 ： app端（react-native）Android 5.0
 2. 汪励灏、 程世磊 ： 小车的移动，电脑和小车的交互
 3. 
 
