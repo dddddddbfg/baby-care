@@ -123,32 +123,32 @@ DisplayImage/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
 .PHONY : DisplayImage/fast
 
-main.o: main.cpp.o
+track.o: track.cpp.o
 
-.PHONY : main.o
+.PHONY : track.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/main.cpp.o
-.PHONY : main.cpp.o
+track.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/track.cpp.o
+.PHONY : track.cpp.o
 
-main.i: main.cpp.i
+track.i: track.cpp.i
 
-.PHONY : main.i
+.PHONY : track.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/main.cpp.i
-.PHONY : main.cpp.i
+track.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/track.cpp.i
+.PHONY : track.cpp.i
 
-main.s: main.cpp.s
+track.s: track.cpp.s
 
-.PHONY : main.s
+.PHONY : track.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/main.cpp.s
-.PHONY : main.cpp.s
+track.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/track.cpp.s
+.PHONY : track.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DisplayImage"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... track.o"
+	@echo "... track.i"
+	@echo "... track.s"
 .PHONY : help
 
 

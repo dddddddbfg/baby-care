@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp
+/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/track.cpp
 iostream
 -
 opencv2/core/core.hpp
+-
+opencv2/tracking.hpp
 -
 opencv2/highgui/highgui.hpp
 -

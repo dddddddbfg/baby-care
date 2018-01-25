@@ -57,38 +57,38 @@ include CMakeFiles/DisplayImage.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DisplayImage.dir/flags.make
 
-CMakeFiles/DisplayImage.dir/main.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
-CMakeFiles/DisplayImage.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/main.cpp.o -c /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp
+CMakeFiles/DisplayImage.dir/track.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
+CMakeFiles/DisplayImage.dir/track.cpp.o: track.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DisplayImage.dir/track.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/track.cpp.o -c /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/track.cpp
 
-CMakeFiles/DisplayImage.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp > CMakeFiles/DisplayImage.dir/main.cpp.i
+CMakeFiles/DisplayImage.dir/track.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/track.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/track.cpp > CMakeFiles/DisplayImage.dir/track.cpp.i
 
-CMakeFiles/DisplayImage.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp -o CMakeFiles/DisplayImage.dir/main.cpp.s
+CMakeFiles/DisplayImage.dir/track.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/track.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/track.cpp -o CMakeFiles/DisplayImage.dir/track.cpp.s
 
-CMakeFiles/DisplayImage.dir/main.cpp.o.requires:
+CMakeFiles/DisplayImage.dir/track.cpp.o.requires:
 
-.PHONY : CMakeFiles/DisplayImage.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/DisplayImage.dir/track.cpp.o.requires
 
-CMakeFiles/DisplayImage.dir/main.cpp.o.provides: CMakeFiles/DisplayImage.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/DisplayImage.dir/main.cpp.o.provides
+CMakeFiles/DisplayImage.dir/track.cpp.o.provides: CMakeFiles/DisplayImage.dir/track.cpp.o.requires
+	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/track.cpp.o.provides.build
+.PHONY : CMakeFiles/DisplayImage.dir/track.cpp.o.provides
 
-CMakeFiles/DisplayImage.dir/main.cpp.o.provides.build: CMakeFiles/DisplayImage.dir/main.cpp.o
+CMakeFiles/DisplayImage.dir/track.cpp.o.provides.build: CMakeFiles/DisplayImage.dir/track.cpp.o
 
 
 # Object files for target DisplayImage
 DisplayImage_OBJECTS = \
-"CMakeFiles/DisplayImage.dir/main.cpp.o"
+"CMakeFiles/DisplayImage.dir/track.cpp.o"
 
 # External object files for target DisplayImage
 DisplayImage_EXTERNAL_OBJECTS =
 
-DisplayImage: CMakeFiles/DisplayImage.dir/main.cpp.o
+DisplayImage: CMakeFiles/DisplayImage.dir/track.cpp.o
 DisplayImage: CMakeFiles/DisplayImage.dir/build.make
 DisplayImage: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.1.0
 DisplayImage: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.1.0
@@ -140,7 +140,7 @@ CMakeFiles/DisplayImage.dir/build: DisplayImage
 
 .PHONY : CMakeFiles/DisplayImage.dir/build
 
-CMakeFiles/DisplayImage.dir/requires: CMakeFiles/DisplayImage.dir/main.cpp.o.requires
+CMakeFiles/DisplayImage.dir/requires: CMakeFiles/DisplayImage.dir/track.cpp.o.requires
 
 .PHONY : CMakeFiles/DisplayImage.dir/requires
 
