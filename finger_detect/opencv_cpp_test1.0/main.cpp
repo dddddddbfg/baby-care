@@ -10,12 +10,12 @@ int main()
 	const char *windowName = "Fingertip detection";
 	int minH = 0, maxH = 30, minS = 30, maxS = 90, minV = 0, maxV = 190;
 	cv::namedWindow(windowName);
-	cv::createTrackbar("MinH", windowName, &minH, 180);
-	cv::createTrackbar("MaxH", windowName, &maxH, 180);
-	cv::createTrackbar("MinS", windowName, &minS, 255);
-	cv::createTrackbar("MaxS", windowName, &maxS, 255);
-	cv::createTrackbar("MinV", windowName, &minV, 255);
-	cv::createTrackbar("MaxV", windowName, &maxV, 255);
+	// cv::createTrackbar("MinH", windowName, &minH, 180);
+	// cv::createTrackbar("MaxH", windowName, &maxH, 180);
+	// cv::createTrackbar("MinS", windowName, &minS, 255);
+	// cv::createTrackbar("MaxS", windowName, &maxS, 255);
+	// cv::createTrackbar("MinV", windowName, &minV, 255);
+	// cv::createTrackbar("MaxV", windowName, &maxV, 255);
 	while (1)
 	{
 		cv::Mat frame;
@@ -44,6 +44,13 @@ int main()
 				largestContour = i;
 		}
 		cv::drawContours(frame, contours, largestContour, cv::Scalar(0, 0, 255), 1);
+
+		if (!contours.empty())
+		{
+			std::vector<std::vector<cv::Point>> hull(1);
+			cv::convexHull(cv::Mat(contours[largestContour]), hull[0], false);
+			cv::drawContours(frame, hull, 0, cv::Scalar(0, 255, 0), 3);
+		}
 		cv::imshow(windowName, frame);
 
 		if (cv::waitKey(30) >= 0)
