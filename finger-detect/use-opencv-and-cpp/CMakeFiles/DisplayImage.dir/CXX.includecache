@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/main.cpp
+/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp
 iostream
 -
 opencv2/core/core.hpp

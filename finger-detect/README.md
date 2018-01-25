@@ -12,5 +12,3 @@ ref:
 
 - https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
 - http://perso.ensta-paristech.fr/~manzaner/Publis/icip09.pdf
-
-test for git push2

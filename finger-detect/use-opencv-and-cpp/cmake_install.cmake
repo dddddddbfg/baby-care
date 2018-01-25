@@ -1,4 +1,4 @@
-# Install script for directory: /home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0
+# Install script for directory: /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

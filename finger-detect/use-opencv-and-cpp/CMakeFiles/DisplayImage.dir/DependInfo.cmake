@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/main.cpp" "/home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/CMakeFiles/DisplayImage.dir/main.cpp.o"
+  "/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/main.cpp" "/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles/DisplayImage.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

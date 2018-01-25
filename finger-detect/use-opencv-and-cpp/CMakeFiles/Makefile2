@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0
+CMAKE_SOURCE_DIR = /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0
+CMAKE_BINARY_DIR = /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp
 
 #=============================================================================
 # Target rules for target CMakeFiles/DisplayImage.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/carter/Desktop/2017project/finger_detect/opencv_cpp_tes
 CMakeFiles/DisplayImage.dir/all:
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/depend
 	$(MAKE) -f CMakeFiles/DisplayImage.dir/build.make CMakeFiles/DisplayImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/CMakeFiles --progress-num=1,2 "Built target DisplayImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles --progress-num=1,2 "Built target DisplayImage"
 .PHONY : CMakeFiles/DisplayImage.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/DisplayImage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DisplayImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DisplayImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/carter/Desktop/2017project/finger_detect/opencv_cpp_test1.0/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carter/Desktop/2017project/finger-detect/use-opencv-and-cpp/CMakeFiles 0
 .PHONY : CMakeFiles/DisplayImage.dir/rule
 
 # Convenience name for target.
