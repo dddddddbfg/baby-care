@@ -10,13 +10,9 @@ Neural net operations are handled by Caffe, while loss minimization and other mi
 
 ![intro](https://dn-anything-about-doc.qbox.me/document-uid440821labid3126timestamp1498730087122.png/wm)
 
-## Requirements
 
- - Python >= 2.7
- - CUDA >= 6.5 (highly recommended)
- - Caffe
-
-CUDA will enable GPU-based computation in Caffe.
+## Plus
+We are going to use the vgg16 model,and because of lack of GPU, to minimize the training time, we will iterate only 10 times which i think is almost same as the pictures iterated 100 times.
 
 ## Download
 
@@ -25,7 +21,7 @@ To run the code, you must have Caffe installed and the appropriate Python bindin
 All of the necessary code is contained in the file `style.py`. You can try it on your own style and content image by running the following command:
 
 ```
-python style.py -s <style_image> -c <content_image> -m <model_name> -g 0
+python style.py -s <style_image> -c <content_image> -m <model_name> -g -1
 ```
 
 The prototxts which come with the vanilla Caffe install aren't quite compatible with this code - working ones have already been added to this repository as a result of this. To get the pretrained models, simply run:
