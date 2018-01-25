@@ -24,7 +24,8 @@ ref: KCF track algorithm
 
 ## todo
 
-- setup the **openpose**
+- try to find draw pictures in github
+- .setup the **openpose**
 - ***draw the picture
 - learn GAN
 - read the github
