@@ -5,10 +5,11 @@ This is the training model of the emotion detection caffenet.
 
 ## Requirements
 
- - Python ==3.6
+ - Python = 3.6
  - Caffe
+ - openCV
 
-##Description
+## Description
 
 ### Some directories
 - train_set: the training set, about 150 pictures.This is the raw data, and we need to transfer it to lmdb format
