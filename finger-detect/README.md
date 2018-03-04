@@ -8,6 +8,9 @@
     1. motion tracking
 1. generate good pictures with these inputs
 
+1. Hand detection
+1. Fingers and Palm segmentation
+
 ## Reference
 
 (finger detection)
