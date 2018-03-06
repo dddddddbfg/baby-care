@@ -1,0 +1,10 @@
+apple
+banana
+car
+cat
+cloud
+door
+fence
+marker
+sword
+tornado
