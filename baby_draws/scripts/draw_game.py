@@ -11,7 +11,7 @@ import tensorflow as tf
 # import cv2 as cv
 
 from label_image import *
-
+# test by Curious
 label_file = "tf_files/retrained_labels.txt"
 labels = load_labels(label_file)
 
